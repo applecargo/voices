@@ -1,0 +1,8 @@
+#N canvas 677 276 450 300 10;
+#X obj 97 23 udpreceive 57000;
+#X obj 97 50 unpackOSC;
+#X obj 26 64 print;
+#X obj 97 77 routeOSC /C4 /D4 /E4 /F4 /G4 /A4 /B4 /C5 /D5 /E5;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 0 3 0;
